@@ -1,0 +1,137 @@
+ :root{
+ 	--jaune: #ffc000;
+ 	--jaune1: #ffe186;
+ 	--jauneBG: #fffcf5;
+ 	--opale:#00AAAA;
+ 	--opale1: #00EBE6;
+ 	--rouge: #C00000;
+ 	--rouge1: #FF3333;
+ 	--orange: #e77700;
+ 	--orange1: #F3A753;
+ 	}
+
+body{
+ 	background-color: var(--jauneBG);
+ 	background-image: url(images/patrick-fore-bg20VZvrfvY-unsplash.jpg);
+ 	background-size: cover;
+ 	background-position: center;
+ 	font-family: Ubuntu, Helvetica, sans-serif;
+ 	position: static;
+ 	margin:0px;
+ 	display: flex;
+ 	flex-direction: column;
+ 	align-items: center;
+  }
+
+
+#entete{
+	display: flex;
+	align-self: stretch;
+	justify-content: stretch;
+	direction: horizontal;
+	padding: 20px;
+	background-image: linear-gradient(to bottom, #000000FF, 50%, #00000000);
+}
+
+#playersBox{
+	display: grid;
+	grid-gap: 10px;
+	/*box-sizing: border-box;*/
+	width: 100%;
+}
+
+.pBox{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	border: solid;
+	border-width: 1px;
+	border-color: #FFFFFF40;
+	border-radius:10px;
+	box-shadow: 0 0 15px #000000;
+	background-image: linear-gradient(to bottom, #FFFFFF80, 50%, transparent);
+}
+
+.pBoxTitle{
+	display: block;
+	background-color: white;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	padding: 5px;
+	font-size: 18px;
+	text-align: center;
+	text-shadow: 1px 2px 6px #747474;
+	box-shadow: 0 0 15px #000000;
+	/*height: 20px;
+	/*width: 200px;*/
+}
+
+.pBoxBottom{
+	display: flex;
+	flex-direction: horizontal;
+}
+.pBoxBottomMinicards{
+	display: grid;
+	grid-template-columns: repeat(4,auto);
+	grid-template-rows: repeat(4,auto);
+	grid-gap: 1px;
+	width: 100%;
+	height: 80px;
+	padding: 5px;
+	overflow: hidden;
+
+}
+.minicards{
+	display: flex;
+	flex-direction: horizontal;
+	background-color: white;
+	border-radius: 500px;
+	width: 25px;
+	height: 25px;
+}
+.scoreBox{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 70px;
+	padding: 10px;
+}
+.score{
+	font-size: 30px;
+	font-weight: 1000px;
+	color: white;
+}
+.points{
+	font-size: 15px;
+	font-weight: 1000px;
+	color: white;
+}
+#cardBoard{
+	display: grid;
+	grid-gap: 10px;
+	height: 100%;
+	border: solid;
+	border-width: 1px;
+	border-color: #FFFFFF40;
+	border-radius:10px;
+	box-shadow: 0 0 15px #000000;
+	padding:20px;
+	width: 1000px;
+}
+.card{
+	display: block;
+	width: auto;
+	height: auto;
+	background-image: url(images/logo02.png), radial-gradient(var(--jaune),var(--jaune1));
+	background-repeat: no-repeat, no-repeat;
+	background-size: contain, contain;
+	background-position: center, center;
+	border-radius: 25px;
+	box-shadow: inset 0 0 15px #000000;
+}
+
+.card:hover{
+	box-shadow: inset 0 0 25px;
+	background-image: url(images/logo02.png), radial-gradient(var(--orange),var(--orange1));
+}
