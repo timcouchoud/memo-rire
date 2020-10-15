@@ -7,7 +7,8 @@
  	--rouge: #C00000;
  	--rouge1: #FF3333;
  	--orange: #e77700;
- 	--orange1: #F3A753;
+	 --orange1: #F3A753;
+	 --vert: rgb(24, 196, 24);
  	}
 
 body{
