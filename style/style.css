@@ -15,7 +15,8 @@ body{
  	background-color: var(--jauneBG);
 	 /*background-image: url(../images/patrick-fore-bg20VZvrfvY-unsplash.jpg);*/
 	background-image: url(../images/james-eades-RVX2STx44UI-unsplash.jpg);
- 	background-size: cover;
+	 
+	background-size: cover;
  	background-position: center;
  	font-family: Ubuntu, Helvetica, sans-serif;
  	position: static;
