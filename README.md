@@ -1,4 +1,5 @@
 # Mémo-Rire
+https://timcouchoud.github.io/memo-rire/
 
 ## Objectifs
 - appréhender le travail collaboratif
