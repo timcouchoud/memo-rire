@@ -1,0 +1,133 @@
+:root {
+    --brand: #FFC000;
+    --dark: #514D41;
+}
+
+:root{
+   --jaune: #ffc000;
+   --jaune1: #ffe186;
+   --jauneBG: #fffcf5;
+   --opale:#00AAAA;
+   --opale1: #00EBE6;
+   --rouge: #C00000;
+   --rouge1: #FF3333;
+   --orange: #e77700;
+   --orange1: #F3A753;
+   --vert: rgb(24, 196, 24);
+   }
+
+body {
+    font-family: Ubuntu, sans-serif;
+    text-align: center;
+    background-color: var(--brand);
+    box-shadow: inset 0 0 20px 0 white;
+    margin-top: 0;
+}
+
+.header {
+    padding-top: 2rem;
+}
+
+main{
+   display: flex;
+   flex-direction: column;
+   justify-content: start;
+   align-items: center;
+}
+
+h3 {
+    color: var(--dark);
+    margin: 0.5rem;
+}
+
+/*** game ***/
+
+#cardBoard{
+    display: grid;
+    grid-gap: 10px;
+    height: 100%;
+    width: 600px;
+    height: 600px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    margin:auto;
+    box-shadow: 0 0 20px 0 white;
+    margin-top: 2rem;
+    margin-bottom: 4rem;;
+}
+
+.card{
+   display: block;
+   width: auto;
+   height: auto;
+   background-image: url(../images/logo02.png), radial-gradient(var(--jaune),var(--jaune));
+   background-repeat: no-repeat, no-repeat;
+   background-size: contain, contain;
+   background-position: center, center;
+   border-radius: 25px;
+   box-shadow: inset 0 0 15px #000000;
+}
+
+.card:hover{
+   box-shadow: inset 0 0 25px;
+}
+
+/*** sign in ***/
+
+.connectGroup{
+   margin-bottom: 2rem;
+
+}
+
+.connectList {
+   display: flex;
+}
+
+.connect {
+   width: 50px;
+   height: 50px;
+   background-color: white;
+   box-shadow: 0 0 20px 0 white;
+   border-radius: 50%;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: 70%;
+   padding: 5px;
+   margin: 5px;
+}
+
+.google {
+   background-image: url("../images/Google__G__Logo 1.png");
+}
+
+.facebook {
+   background-image: url("../images/facebook-svgrepo-com\ 1.png");
+}
+
+.linkedin {
+   background-image: url("../images/iconmonstr-linkedin-3\ 1.png");
+}
+
+.formSignIn {
+   display: flex;
+   flex-direction: column;
+}
+
+input {
+   background-color: white;
+   border: none;
+   border-radius: 999px;
+   box-shadow: 0 0 20px 0 white;
+   margin: 0.5rem 0 0.5rem 0;
+   height: 1.5rem;
+   color: var(--dark);
+   padding-left: 30px;
+}
+
+button {
+
+}
+
+
+
