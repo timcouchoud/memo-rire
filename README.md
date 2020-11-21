@@ -7,3 +7,4 @@ https://timcouchoud.github.io/memo-rire/
 
 ## Résultats
 - nous avons réussi à collaborer! Youpiiii
+- ajout de la branche landingPage
