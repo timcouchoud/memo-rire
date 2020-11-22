@@ -67,6 +67,7 @@ h3 {
     width: calc(100vw - 50px);
     max-width: 800px;
     height: 90vh;
+    max-height:calc(100vw - 50px);
     background-color: white;
     border-radius: 20px;
     padding: 20px;
