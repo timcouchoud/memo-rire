@@ -1,39 +1,76 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<title>MEMORIRE (2020)</title>
-	<meta property="og:title" content="Mémo Rire" />
-	<meta property="og:type" content="website" />
-	<meta property="og:url" content="https://timcouchoud.github.io/memo-rire/" />
-	<meta property="og:image" content="images/logo03.png" />
-	<meta property="og:description" content="Un simple jeu de memory - Edition spéciale pour les amoureux de chats" />
-	<link rel="stylesheet" type="text/css" href="style/style.css">
-	<link rel="icon" type="image/png" href="images/favicon01.png"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memorire</title>
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/landingPage.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <header class="header">
+        <img src="./images/logo01 1.png" alt="logo" width="300px">
+        <a href="https://github.com/timcouchoud/memo-rire" target="_blank">
+            <img class="forkUs" src="./images/forkUs.png" alt="forkUs">
+        </a>
+    </header>
+    <main>
+        <h3>Retournes les cartes deux par deux et trouves vite les pairs de chats...</h4>
+        <h3 class="h3--light">Miaaaouuuu!</h3>
+        <div id="cardBoard">
+            
+        </div>
+        <div class="connectGroup">
+            <h3>Je me connecte avec...</h3>
+            <div class="connectList">
+                <a href="">
+                    <div class="connect google"></div>
+                </a>
+                <a href="">
+                    <div class="connect facebook"></div>
+                </a>
+                <a href="">
+                    <div class="connect linkedin"></div>
+                </a>
+            </div>
+            
+        </div>
+        <div class="">
+            <h3>...ou bien je créé mon compte</h3>
+            <form class="formSignIn" action="">
+                <input type="text " placeholder="Ton nom...">
+                <input type="email " placeholder="ton email...">
+                <input type="password " placeholder="Ton mot de passe...">
+                    <button class="submit" type="submit">Valider</button>
+                
+            </form>
+        </div>
+        <div class="contributeurs">
+            <h3>Les contributeurs de ce projet</h3>
+            <div class="contributorBox">
+                <a href="https://github.com/timcouchoud" target="_blank">
+                    <img class="avatar" src="https://avatars2.githubusercontent.com/u/67595921?s=460&u=06e34e1e54c4dccc3007b30a1e1fa42211e3cafe&v=4"/>
+                </a>
+                <a href="https://github.com/fmarc39" target="_blank">
+                    <img class="avatar" src="https://avatars2.githubusercontent.com/u/73823754?s=460&u=66c71bd22550b71d0e83f7b5e0adfee69f3e78d8&v=4"/>
+                </a>
+                <a href="https://github.com/mhmdmrabet" target="_blank">
+                    <img class="avatar" src="https://avatars1.githubusercontent.com/u/58339336?s=460&u=88827571ac486856dc637f20e5edfe7a365b7ee6&v=4"/>
+                </a>
+            </div>
+            
+            
+        </div>
+    </main>
 
-	<!-- HEADER -->
+    <footer>
+        <p class="footer">Créé avec <span class="--red">♥</span> par Timothée Couchoud</p>
+        <p class="footer --light"> Licence AGPL v3 - 2020</p>
+    </footer>
 
-	<header class="header">
-		<h1 class="header__title">
-			MemoRire
-		</h1>
-	</header>
-
-	<div id="entete">
-		<img class="logo" src="images/logo01.png" height="100px">
-		<div id="playersBox"> </div>
-	</div>
-	<div id="cardBoard"></div>
-	<script src="script/jquery-3.5.1.min.js"></script>
-	<script type="text/javascript" src="script/script.js"></script>
-
-	
+    <script src="./script/gameLandingPage.js"></script>
+    
 </body>
 </html>
-
-
-
-
-
