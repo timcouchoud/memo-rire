@@ -65,9 +65,7 @@ h3 {
     grid-gap: 10px;
     height: 100%;
     width: calc(100vw - 50px);
-    max-width: 800px;
-    height: 90vh;
-    max-height:calc(100vw - 50px);
+    height: calc(100vw - 50px);
     background-color: white;
     border-radius: 20px;
     padding: 20px;
@@ -76,6 +74,14 @@ h3 {
     margin-top: 2rem;
     margin-bottom: 4rem;
 }
+
+@media (min-width:800px) {
+   #cardBoard {
+      width: 700px;
+      height: 700px;
+   }
+}
+
 
 .card{
    display: block;
@@ -89,6 +95,20 @@ h3 {
    box-shadow: inset 0 0 15px #000000;
 }
 
+@media (max-width:400px){
+   #cardBoard {
+      grid-gap: 5px;
+      padding: 10px;
+   }
+   .card {
+      border-radius: 10px;
+      
+   }
+   .forkUs {
+      width:100px;
+   }
+
+}
 .card:hover{
    box-shadow: inset 0 0 25px;
    transform: scale(1.03, 1.03)
