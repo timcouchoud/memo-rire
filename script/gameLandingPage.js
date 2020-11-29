@@ -110,15 +110,20 @@ for (var c = 0; c < nCards; c++){
 /* add listener */
 for (var c = 0; c < nCards; c++) {
 	cards[c].addEventListener('click', function (event) {
+		
 		if(!this.collected){
+			console.log("collected ", this.collected);
 			if(!this.shown){
+				console.log("shown ", this.shown);
 				switch(nShown){
 					case 0 :
+						console.log("nShown ", nShown)
 						card1=this;
 						this.show();
 						nShown=1;
 						break;
 					case 1 :
+						console.log("nShown ", nShown)
 						card2=this;
 						this.show();
 						nShown=2;

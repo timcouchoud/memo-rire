@@ -21,7 +21,6 @@ html {
    }
 
 body {
-    font-family: Ubuntu, sans-serif;
     text-align: center;
     background-color: var(--brand);
     box-shadow: inset 0 0 20px 0 white;

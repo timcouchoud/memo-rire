@@ -4,34 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Memorire</title>
+    <link rel="stylesheet" href="../style/reset.css">
     <link rel="stylesheet" href="../style/common.css">
     <link rel="stylesheet" href="../style/roomSelection.css">
 </head>
 <body>
-    <header>
-        <img src="../images/logo01 1.png" alt="" width='100px'>
-        <div>
-            <img src="../images_cards/noun_Cat_3162462.png" alt="" >
-            <div>
-                <h1>Bienvenue</h1>
-                <h1>Siloé</h1>
+    <header class="header">
+        <img class="logo" src="../images/logo01 1.png" alt="" width='100px'>
+        <div class="welcomeBlock">
+            <img class="avatar" src="../images_cards/noun_Cat_3162462.png" alt="" width="100px">
+            <div class="welcome">
+                <h1 class='--light'>Bienvenue</h1>
+                <h1>Siloé!</h1>
             </div>
         </div>
+        <div style="height: 2rem"></div>
     </header>
     <main>
-        <h3>Je créé ma propre  salle</h3>
-        <div>
-            <input type="text" placeholder="Nom de ma salle...">
-            <button>Créer la salle</button>
-        </div>
-        <div>
-            <div>
-                <img src="../images/patrick-fore-bg20VZvrfvY-unsplash.jpg" alt="">
+        <h3>Je créé ma salle</h3>
+        <div class="createRoom">
+            <div class="roomNameButtonBlock">
+                <input class="roomName" type="text" placeholder="Nom de ma salle...">
+                <div style="width:20px"></div>
+                <a class="buttonGreen" href="">
+                    <img src="../images/noun_new_1393269 1 (1).png" alt="">
+                    <div class="buttonText">Créer la salle</div>   
+                </a>
             </div>
+            <div style="height: 1rem"></div>
             <p>Choisis une image de fond</p>
+            <div class="bgIcons">
+                <div class="bgIcon" style="background-image: url(../images/patrick-fore-bg20VZvrfvY-unsplash.jpg)"></div>
+                <div class="bgIcon" style="background-image: url(../images/james-eades-RVX2STx44UI-unsplash.jpg)"></div>
+                <div class="bgIcon" style="background-image: url(../images/patrick-fore-bg20VZvrfvY-unsplash.jpg)"></div>
+                <div class="bgIcon" style="background-image: url(../images/james-eades-RVX2STx44UI-unsplash.jpg)"></div>
+                <div class="bgIcon" style="background-image: url(../images/patrick-fore-bg20VZvrfvY-unsplash.jpg)"></div>
+                <div class="bgIcon" style="background-image: url(../images/james-eades-RVX2STx44UI-unsplash.jpg)"></div>
+                <div class="bgIcon" style="background-image: url(../images/patrick-fore-bg20VZvrfvY-unsplash.jpg)"></div>
+                <div class="bgIcon" style="background-image: url(../images/james-eades-RVX2STx44UI-unsplash.jpg)"></div>
+                <div class="bgIcon" style="background-image: url(../images/patrick-fore-bg20VZvrfvY-unsplash.jpg)"></div>
+                <div class="bgIcon" style="background-image: url(../images/james-eades-RVX2STx44UI-unsplash.jpg)"></div>
+                <div class="bgIcon" style="background-image: url(../images/patrick-fore-bg20VZvrfvY-unsplash.jpg)"></div>
+                <div class="bgIcon" style="background-image: url(../images/james-eades-RVX2STx44UI-unsplash.jpg)"></div>
+                <div class="bgIcon" style="background-image: url(../images/patrick-fore-bg20VZvrfvY-unsplash.jpg)"></div>
+                <div class="bgIcon" style="background-image: url(../images/james-eades-RVX2STx44UI-unsplash.jpg)"></div>
+                <div class="bgIcon" style="background-image: url(../images/patrick-fore-bg20VZvrfvY-unsplash.jpg)"></div>
+                <div class="bgIcon" style="background-image: url(../images/james-eades-RVX2STx44UI-unsplash.jpg)"></div>
+                <div class="bgIcon" style="background-image: url(../images/patrick-fore-bg20VZvrfvY-unsplash.jpg)"></div>
+                <div class="bgIcon" style="background-image: url(../images/james-eades-RVX2STx44UI-unsplash.jpg)"></div>
+                <div class="bgIcon" style="background-image: url(../images/patrick-fore-bg20VZvrfvY-unsplash.jpg)"></div>
+                <div class="bgIcon" style="background-image: url(../images/james-eades-RVX2STx44UI-unsplash.jpg)"></div>
+            </div>
         </div>
-
-        <h1>Je rejoins une salle existante</h1>
+        <div style="height: 2rem"></div>
+        <h3>Je rejoins une salle existante</h3>
         <div class="filters">
             <input type="text" name="search" id="">
             <div class=filteringButtons>
@@ -68,6 +94,8 @@
         </div>
 
     </main>
-    
+    <footer>
+
+    </footer>
 </body>
 </html>

@@ -2,4 +2,89 @@
 
 body {
     background-color: var(--brand);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.logo {
+    position: absolute;
+    left:0;
+    top:0;
+}
+
+.welcomeBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome {
+    text-align: left;
+}
+
+.createRoom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--jaune1);
+    border-radius: 15px;
+    padding: 1rem 3rem 1rem 3rem;
+    margin: 0 1rem 0 1rem;
+    max-width: 800px;
+
+}
+
+.roomNameButtonBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.roomName {
+
+}
+
+.buttonGreen {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border-radius: 999px;
+    background-color: var(--vert);
+    color: white;
+    padding-left: 0.5rem;
+    box-shadow: 3px 3px 5px 0 gray;
+
+}
+
+.buttonText {
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 0.5rem;
+    
+}
+
+.bgIcons {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.bgIcon {
+    width:3rem; 
+    height:3rem; 
+    background-size: cover;
+    margin:0.25rem;
 }
