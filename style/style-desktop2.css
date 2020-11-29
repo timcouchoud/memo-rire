@@ -1,0 +1,95 @@
+/* BODY */
+
+body {
+
+    background-color: #FFC000;
+    
+
+}
+
+
+/* MAIN */
+
+main {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+    
+
+}
+
+/* LOGO */ 
+
+.main-logo {
+
+    width: 20rem;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.26));
+}
+
+/* paragraphe choice */
+
+.main-choice {
+
+    color: #514D41;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 2rem;
+    
+}
+
+/* container avec grid */
+
+
+.main-container {
+
+    background-color: white;
+    border-radius: 1rem;
+    height: 25rem;
+    width: 30rem;
+    max-width: 90%;
+    padding: 1rem 2rem;
+    box-shadow: 0px 0px 20px #FFFFFF;
+    display: grid;
+    grid-template-columns: repeat(4, 25% [col-start]);
+    grid-template-rows: repeat(4, 25% [col-start]) ;
+    margin-bottom: 1rem;
+}
+
+.main-container img {
+
+    padding: 0.5rem;
+
+}
+
+.main-container img:hover {
+
+    border: #FFC000 0.25rem solid;
+    border-radius: 1rem;
+    padding: 0.25rem;
+}
+
+/* BOUTON */
+
+.main-btn {
+
+    background: #514D41;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25), 0px 0px 30px #FFFFFF;
+    border-radius: 999px;
+    color: white;
+    border: none;
+    padding: 0.8rem 0rem;
+    width: 15rem;
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+   
+
+    
+}
